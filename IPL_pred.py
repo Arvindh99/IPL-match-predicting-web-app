@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import pandas as pd
 
-matches = pd.read_csv("C:/Users/Arvindh22/Desktop/Self Learn/Python/matches2.csv")
+matches = pd.read_csv("matches2.csv")
 matches['winner'].fillna('Draw', inplace=True)
 matches.replace(['Mumbai Indians', 'Kolkata Knight Riders', 'Royal Challengers Bangalore', 'Chennai Super Kings',
                  'Rajasthan Royals', 'Delhi Capitals', 'Gujarat Lions', 'Kings XI Punjab',
@@ -64,7 +64,7 @@ outcome_var = ['winner']
 predictor_var = ['team1', 'team2', 'city', 'toss_decision', 'toss_winner', 'venue']
 classification_model(model, df, predictor_var, outcome_var)
 
-pickle_in = open('C:/Users/Arvindh22/Desktop/Self Learn/Python/classifier.pkl', 'rb')
+pickle_in = open('classifier.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
 #coding for web app:
