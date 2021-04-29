@@ -291,7 +291,7 @@ def prediction(team1, team2, city, toss_decision, toss_winner, venue):
 
 def main():
     st.title("Indian Premier League Cricket Match Prediction")
-    st.subheader("Built with Steamlit by Arvindh")
+    st.subheader("Built with Streamlit by Arvindh")
 
     team1 = st.selectbox("Team 1", ("MI", "KKR", "RCB", "CSK", "RR", "DC", "GL", "KXIP", "SRH", "RPS", "KTK"))
     team2 = st.selectbox("Team 2", ("MI", "KKR", "RCB", "CSK", "RR", "DC", "GL", "KXIP", "SRH", "RPS", "KTK"))
