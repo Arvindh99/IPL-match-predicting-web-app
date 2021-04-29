@@ -279,10 +279,8 @@ def prediction(team1, team2, city, toss_decision, toss_winner, venue):
         venue = 32
     elif venue == "Dubai International Cricket Stadium":
         venue = 33
-    elif venue == "Narendra modi stadium":
-        venue = 34
     else:
-        venue = 35
+        venue = 34
 
     prediction = classifier.predict([[team1, team2, city, toss_decision, toss_winner, venue]])
     print(prediction)
