@@ -297,7 +297,7 @@ def main():
     "Hyderabad", "Pune", "Rajkot", "Indore", "Bengaluru", "Mumbai", "Kolkata", "Delhi", "Chandigarh", "Kanpur",
     "Jaipur", "Chennai", "Cape Town", "Port Elizabeth", "Durban", "Centurion", "East London", "Johannesburg",
     "Kimberley", "Bloemfontein", "Ahmedabad", "Cuttack", "Nagpur", "Dharamsala", "Kochi", "Visakhapatnam", "Raipur",
-    "Ranchi", "Abu Dhabi", "Sharjah", "Dubai", "Mohali", "Ahmedabad"))
+    "Ranchi", "Abu Dhabi", "Sharjah", "Dubai", "Mohali"))
     toss_decision = st.selectbox("Toss decision", ("field", "bat"))
     toss_winner = st.selectbox("Toss winner",
                                ("MI", "KKR", "RCB", "CSK", "RR", "DC", "GL", "KXIP", "SRH", "RPS", "KTK"))
@@ -319,7 +319,7 @@ def main():
                                    "Subrata Roy Sahara Stadium",
                                    "Shaheed Veer Narayan Singh International Stadium",
                                    "JSCA International Stadium Complex", "Sheikh Zayed Stadium",
-                                   "Sharjah Cricket Stadium", "Dubai International Cricket Stadium", "Narendra modi stadium"))
+                                   "Sharjah Cricket Stadium", "Dubai International Cricket Stadium"))
     result = ""
 
     if st.button("Predict"):
