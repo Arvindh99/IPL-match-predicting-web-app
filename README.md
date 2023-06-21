@@ -38,4 +38,4 @@ Let's enjoy the excitement of IPL and make informed predictions with this IPL Ma
 
 ### Acknowledgments
 
-We would like to acknowledge the Streamlit community for their excellent framework that made it easy to develop this EHR Web Application. Their documentation and examples have been instrumental in the development process.
+We would like to acknowledge the Streamlit community for their excellent framework that made it easy to develop this Web Application. Their documentation and examples have been instrumental in the development process.
