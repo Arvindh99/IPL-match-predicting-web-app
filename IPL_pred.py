@@ -1,6 +1,7 @@
 import pickle
 import streamlit as st
 import pandas as pd
+import sklearn
 
 matches = pd.read_csv("matches2.csv")
 matches['winner'].fillna('Draw', inplace=True)
